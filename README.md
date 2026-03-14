@@ -7,10 +7,10 @@ This project analyzes historical retail sales data and builds time-series foreca
 ## Dataset
 The dataset contains 6,435 weekly sales observations across 45 stores from 2010 to 2012.
 
-## Time-series diagnostics
-- ACF and PACF plots to analyze autocorrelation structure
-- Seasonal decomposition to separate trend, seasonal, and residual components
-- Outlier detection using the IQR method
+## Analysis & Feature Engineering
+- ACF and PACF plots to analyze autocorrelation structure.
+- Seasonal decomposition to separate trend, seasonal, and residual components.
+- Incorporated holiday indicators as exogenous variables to capture retail demand spikes.
 
 ## Modeling Approach
 1. SARIMA
